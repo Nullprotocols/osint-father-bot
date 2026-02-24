@@ -1,0 +1,44 @@
+# Core Telegram Bot Framework
+aiogram==3.10.0
+python-dotenv==1.0.1
+
+# Database (SQLite + PostgreSQL support)
+aiosqlite==0.20.0
+asyncpg==0.29.0
+
+# HTTP Requests
+httpx==0.27.0
+
+# Web Server for Render (Flask + Gunicorn)
+Flask==3.0.0
+gunicorn==21.2.0
+
+# Optional ASGI server (if you decide to use FastAPI later)
+uvicorn==0.30.1
+fastapi==0.111.0
+
+# Data Processing
+pandas==2.2.1
+openpyxl==3.1.2
+
+# Date/Time Utilities
+python-dateutil==2.9.0.post0
+
+# Cryptography (for future features)
+cryptography==42.0.5
+
+# Environment Management (alternative to python-dotenv)
+python-decouple==3.8
+
+# Logging Enhancements
+colorlog==6.8.2
+
+# General Utilities
+pyyaml==6.0.1
+pytz==2024.1
+
+# Fast JSON
+ujson==5.9.0
+
+# High-performance event loop (Linux only, optional)
+uvloop==0.19.0
