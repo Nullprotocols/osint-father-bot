@@ -1,0 +1,84 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Environment variables file (IMPORTANT: contains secrets)
+.env
+.env.local
+.env.production
+.env.development
+
+# Database files (SQLite - contains user data)
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+nullprotocol.db
+backup_*.db
+
+# Logs and temp files
+logs/
+*.log
+*.log.*
+*.tmp
+*.temp
+*.pid
+*.seed
+*.pid.lock
+
+# Backups
+backups/
+*.backup
+*.bak
+backup_*
+
+# Jupyter Notebook (if any)
+.ipynb_checkpoints
+*.ipynb
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Render specific (optional - if you have render.yaml with secrets, but it's not needed to ignore usually)
+# render.yaml
+
+# Docker (if you use)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Project specific - backup files created by bot
+backup_*.db
+temp_*.txt
+temp_*.json
